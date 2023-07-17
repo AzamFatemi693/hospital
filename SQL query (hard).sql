@@ -70,7 +70,7 @@ WHERE first_name LIKE '%__r%'
     AND month(birth_date) IN (2, 5, 12)
     and weight between 60 and 80
     and patient_id%2 != 0
-a   nd city = 'Kingston'
+    and city = 'Kingston'
 
   
 # Show the percent of patients that have 'M' as their gender. Round the answer to the nearest hundreth number and in percent form.
